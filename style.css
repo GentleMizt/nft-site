@@ -38,6 +38,7 @@ nav ul li a{
 nav input{
     width: 25vw;
     padding: 1.5rem;
+    margin-right: 3rem;
     /* border-radius: 10px; */
 }
 nav button{
