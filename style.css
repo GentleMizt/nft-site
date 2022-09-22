@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
+body{
+    font-family: sans-serif;
+
+}
+nav{
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    flex-basis: 70%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+}
+nav ul li{
+    margin: 0 2rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #00000082;
+    font-size: 1.6rem;
+}
+nav input{
+    width: 25vw;
+    padding: 1.5rem;
+    /* border-radius: 10px; */
+}
+nav button{
+    font-size: 1.6rem;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    border: 1px solid lightgray;
+    background-color: #fff;
+}
